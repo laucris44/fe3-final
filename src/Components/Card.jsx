@@ -32,7 +32,7 @@ const Card = ({ name, username, id }) => {
     <div className='card'>
       <Link to={`${Paths.dentist.path}/${id}`}>
         <img
-          src='./images/doctora.jpg'
+          src='./images/doctor.jpg' 
           alt={username}
         />
         <h4>{name}</h4>
